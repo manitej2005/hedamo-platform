@@ -8,9 +8,9 @@ A comprehensive product management system that empowers producers to track trans
 
 ## 🚀 Live Demo
 
-**[View Live Application →](https://your-app-url.vercel.app)**
+**[View Live Application →](https://hedamo-platform.vercel.app/)**
 
-> _Deploy to Vercel to get your live URL_
+> _Deployed and live on Vercel_
 
 ---
 
