@@ -1,0 +1,160 @@
+[
+  {
+    "id": "prod-001",
+    "productName": "Organic Herbal Tea",
+    "category": "Beverages",
+    "score": 72,
+    "status": "active",
+    "lastUpdated": "2025-10-12",
+    "explanation": "Moderate transparency. Missing sourcing details for 2 ingredients.",
+    "suggestions": [
+      "Add sourcing details for green tea leaves",
+      "Include certification ID for 'organic' claim",
+      "Clarify packaging recyclability"
+    ],
+    "flags": ["Incomplete sourcing", "Unverified organic claim"],
+    "ingredients": [
+      { "name": "Green Tea Leaves", "source": "Unknown", "verified": false },
+      { "name": "Chamomile", "source": "Germany", "verified": true },
+      { "name": "Peppermint", "source": "Morocco", "verified": true }
+    ],
+    "certifications": ["Organic", "Fair Trade"]
+  },
+  {
+    "id": "prod-002",
+    "productName": "Premium Dark Chocolate",
+    "category": "Confectionery",
+    "score": 89,
+    "status": "active",
+    "lastUpdated": "2025-10-10",
+    "explanation": "Excellent transparency with complete sourcing and certification details.",
+    "suggestions": [
+      "Consider adding carbon footprint data"
+    ],
+    "flags": [],
+    "ingredients": [
+      { "name": "Cocoa Beans", "source": "Ecuador", "verified": true },
+      { "name": "Cane Sugar", "source": "Brazil", "verified": true },
+      { "name": "Cocoa Butter", "source": "Ecuador", "verified": true }
+    ],
+    "certifications": ["Organic", "Fair Trade", "Rainforest Alliance"]
+  },
+  {
+    "id": "prod-003",
+    "productName": "Natural Honey",
+    "category": "Food & Spreads",
+    "score": 95,
+    "status": "active",
+    "lastUpdated": "2025-10-14",
+    "explanation": "Outstanding transparency score with full traceability and verified claims.",
+    "suggestions": [],
+    "flags": [],
+    "ingredients": [
+      { "name": "Raw Honey", "source": "Local Apiaries, Vermont", "verified": true }
+    ],
+    "certifications": ["Organic", "Pure", "Local"]
+  },
+  {
+    "id": "prod-004",
+    "productName": "Artisan Olive Oil",
+    "category": "Oils & Condiments",
+    "score": 58,
+    "status": "pending",
+    "lastUpdated": "2025-10-08",
+    "explanation": "Low transparency due to missing certification documents and unclear origin.",
+    "suggestions": [
+      "Upload organic certification documents",
+      "Specify exact region of olive harvest",
+      "Add harvest date information",
+      "Include pressing method details"
+    ],
+    "flags": ["Missing certifications", "Unverified origin", "Incomplete details"],
+    "ingredients": [
+      { "name": "Extra Virgin Olive Oil", "source": "Mediterranean", "verified": false }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "prod-005",
+    "productName": "Whole Grain Bread",
+    "category": "Bakery",
+    "score": 81,
+    "status": "active",
+    "lastUpdated": "2025-10-13",
+    "explanation": "Good transparency with verified ingredients. Minor improvements needed.",
+    "suggestions": [
+      "Add nutritional breakdown per ingredient",
+      "Include allergen handling protocols"
+    ],
+    "flags": ["Minor details missing"],
+    "ingredients": [
+      { "name": "Whole Wheat Flour", "source": "Kansas, USA", "verified": true },
+      { "name": "Water", "source": "Filtered Municipal", "verified": true },
+      { "name": "Yeast", "source": "Local Supplier", "verified": true },
+      { "name": "Sea Salt", "source": "Brittany, France", "verified": true }
+    ],
+    "certifications": ["Non-GMO", "Whole Grain"]
+  },
+  {
+    "id": "prod-006",
+    "productName": "Cold-Pressed Juice",
+    "category": "Beverages",
+    "score": 67,
+    "status": "active",
+    "lastUpdated": "2025-10-09",
+    "explanation": "Moderate transparency. Some fruit sources need verification.",
+    "suggestions": [
+      "Verify apple and carrot sources",
+      "Add cold-press certification",
+      "Include shelf-life testing data"
+    ],
+    "flags": ["Unverified sources"],
+    "ingredients": [
+      { "name": "Apples", "source": "Unknown", "verified": false },
+      { "name": "Carrots", "source": "Unknown", "verified": false },
+      { "name": "Ginger", "source": "Peru", "verified": true },
+      { "name": "Lemon", "source": "California, USA", "verified": true }
+    ],
+    "certifications": ["Organic"]
+  },
+  {
+    "id": "prod-007",
+    "productName": "Protein Powder",
+    "category": "Supplements",
+    "score": 44,
+    "status": "draft",
+    "lastUpdated": "2025-10-05",
+    "explanation": "Low transparency. Multiple missing details and unverified claims.",
+    "suggestions": [
+      "Provide third-party lab test results",
+      "Verify protein source and percentage",
+      "Include manufacturing facility certifications",
+      "Add full nutritional panel with testing dates"
+    ],
+    "flags": ["Unverified claims", "Missing lab results", "Incomplete sourcing", "Draft status"],
+    "ingredients": [
+      { "name": "Whey Protein Isolate", "source": "Unknown", "verified": false },
+      { "name": "Natural Flavors", "source": "Unknown", "verified": false },
+      { "name": "Stevia", "source": "Unknown", "verified": false }
+    ],
+    "certifications": []
+  },
+  {
+    "id": "prod-008",
+    "productName": "Coconut Water",
+    "category": "Beverages",
+    "score": 78,
+    "status": "active",
+    "lastUpdated": "2025-10-11",
+    "explanation": "Good transparency with verified sourcing. Minor documentation updates needed.",
+    "suggestions": [
+      "Update expiration date format",
+      "Add sustainability report"
+    ],
+    "flags": [],
+    "ingredients": [
+      { "name": "Fresh Coconut Water", "source": "Thailand", "verified": true }
+    ],
+    "certifications": ["Organic", "Non-GMO"]
+  }
+]
